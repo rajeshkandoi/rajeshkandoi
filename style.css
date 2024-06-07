@@ -110,11 +110,9 @@ h2 {
 footer {
     background-color: #01487C;
     display: grid;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     color: white;
-    grid-template-columns: 1fr; /* Change this line */
+    grid-template-columns: repeat(3, 1fr); /* Change this line */
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     margin-top: 10rem;
